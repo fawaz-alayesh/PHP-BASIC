@@ -4,8 +4,9 @@
 
 <?php
 $leeftijd = 23;
-echo $leeftijd;
 $melkprijs = 0.98;
+echo $leeftijd;
+echo "<br>";
 echo $melkprijs;
 ?>
 
