@@ -3,21 +3,21 @@
 <body>
     
 <?php
-$c = "Hello";
-echo gettype($c) . "<br>";
+$a = "Hello";
+echo gettype($a) . "\n";
 
-$a = 3;
-echo gettype($a) . "<br>";
+$b = 3;
+echo gettype($b) . "\n";
 
-$b = 3.2;
-echo gettype($b) . "<br>";
+$c = 3.2;
+echo gettype($c) . "\n";
 
-$g = false;
-echo gettype($g) . "<br>";
+$d= false;
+echo gettype($d) . "\n";
 
 
-$f = NULL;
-echo gettype($f) . "<br>";
+$e = NULL;
+echo gettype($e) . "\n";
 ?>
 
 </body>
