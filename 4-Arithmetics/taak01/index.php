@@ -1,12 +1,8 @@
 <?php
-$test1 =12;
-$test2 = "Hallo World";
-var_dump($test1==$test2);
-var_dump($test1===$test2);
-var_dump($test1!=$test2);
-var_dump($test1>$test2);
-var_dump($test1<$test2);
-var_dump($test1<>$test2);
-var_dump($test1>=$test2);
-var_dump($test1<=$test2);
+$getal1 = 10;
+$getal2 = 2;
+echo $getal1 + $getal2 ."<br>";
+echo $getal1 - $getal2 ."<br>";
+echo $getal1 * $getal2 ."<br>";
+echo $getal1 / $getal2 ."<br>";
 ?>
