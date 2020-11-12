@@ -11,7 +11,7 @@ if ($x == 100 && $y == 50) {
 $x = 100;  
 $y = 50;
 
-if ($x == 100 || $y == 80) {
+if ($x == 100 || $y == 50) {
     echo " een of beide van de twee waardes waar zijn"."<br>";
 }else{
     echo"niet een of beide van de twee waardes waar zijn";
@@ -23,7 +23,7 @@ $y = 50;
 if ($x == 100 xor $y == 80) {
     echo "een van de twee waardes waar is maar niet beide"."<br>";
 }else{
-    echo"geen van de twee waardes waar is";
+    echo"geen van de twee waardes is waar";
 }
 
 $x = 100;  
