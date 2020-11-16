@@ -8,7 +8,6 @@ function zetTweeWoordenAanElkaar(){
 }
     zetTweeWoordenAanElkaar();
 
-
 ?>
 
 
