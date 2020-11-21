@@ -8,9 +8,9 @@
   </head>
   <body>
     <form action="producten.php" method="get"><!-- dit laten staan! -->
-
+    <?php include 'menu.php';?>
     <p>Hieronder een lijst met producten die je bij ons kunt bestellen en de prijs per stuk:</p>
-        <table>
+        <table class="table">
             <tr>
                 <th>productnummer</th>
                 <th>product</th>
@@ -25,6 +25,46 @@
                 <td>1</td>
                 <td>peren</td>
                 <td>0,30</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Kiwi</td>
+                <td>0,70</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>sinasappel</td>
+                <td>0,50</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>watermelon</td>
+                <td>0,60</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>druiven</td>
+                <td>0,80</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>kers</td>
+                <td>0,65</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>melk</td>
+                <td>0,45</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>kaas</td>
+                <td>0,90</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>tomaat</td>
+                <td>0,75</td>
             </tr>
         </table>
 
