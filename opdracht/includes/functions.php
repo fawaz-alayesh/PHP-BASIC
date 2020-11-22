@@ -5,7 +5,7 @@ function getInput()
     $input = $_GET['input'] ?? 'vul een waarde in hierboven en klik op [check]';
     echo $input;
 }
-
+getInput()
 
 function getProductNr()
 {

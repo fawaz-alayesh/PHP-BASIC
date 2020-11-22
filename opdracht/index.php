@@ -13,7 +13,7 @@
     <p>Vul hieronder een getal, een decimaal, een tekst of de tekst true/false in en klik op check!</p> 
     <input type="text" name="input"><!-- dit laten staan! -->
     <button type="submit" name="submit">Check</button><!-- dit laten staan! -->
-    <p>Het datatype van de waarde: <?php getInput(); ?> is </p>
+    <p>Het datatype van de waarde:is <?php function getInput() ?>  </p>
    
 
     </form><!-- dit laten staan! -->
