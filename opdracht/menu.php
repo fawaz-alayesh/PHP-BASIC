@@ -16,22 +16,23 @@
      .table td{
         border:1px black solid;
      }
-
+     
 
 
     </style>
+    
     <?php
+    
     $prijs=[0.25 , 0.30 , 0.70 , 0.50 , 0.60 , 0.80 , 0.65 , 0.45 , 0.90 , 0.75];
-
+    
     echo "<br>";
     if ($_GET['productnummer'] >=0 && $_GET['productnummer']<=10){
       $totaal= $prijs [ $_GET['productnummer']] * $_GET['aantal'];
       $totaalall= number_format($totaal,2);
-       $totaalall;
+      $totaalall;
     }  else{
         echo "bestaat niet!";
     }
-    
 
     switch($_GET['leeftijd']) {
         case 0:case 1:case 2:case 3:case 4:
@@ -67,7 +68,8 @@
         break;
 
         default:
-        echo "Helaas, Jij krijgt geen korting!";
+        echo number_format($totaalall,2);
+       
     }
 
     
