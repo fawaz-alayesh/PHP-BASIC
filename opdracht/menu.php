@@ -8,7 +8,7 @@
 <body>
     <style>
      .table{
-         border:1px black solid;
+         border:5px silver solid;
      }
      .table th{
         border:1px black solid;

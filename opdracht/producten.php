@@ -69,8 +69,18 @@
         </table>
 
     <p>Vul hieronder het productnummer in van het product wat je wilt bestellen en de hoeveelheid.</p> 
-    <p><label>productnummer: </label><input type="text" name="productnummer"> &nbsp;&nbsp;<label>aantal: </label><input type="text" name="aantal"></p><!-- dit laten staan! -->
-    
+    <p><label>productnummer: </label><select type="text" name="productnummer"> 
+                                      <option value="0">appels<option>
+                                      <option value="1">peren<option>
+                                      <option value="2">kiwi<option>
+                                      <option value="3">sinasappel<option>
+                                      <option value="4">watermelon<option>
+                                      <option value="5">druiven<option>
+                                      <option value="6">kers<option>
+                                      <option value="7">melk<option>
+                                      <option value="8">kaas<option>
+                                      <option value="9">tomaat<option>
+                                    </select>&nbsp;&nbsp;<label>aantal: </label><input type="text" name="aantal"></p><!-- dit laten staan! -->
     <p>Vul je leeftijd in voor korting</p>
     <p><label>leeftijd: </label><input type="text" name="leeftijd"></p><!-- dit laten staan! -->
     <p><button type="submit" name="submit">Bereken totaal</button></p><!-- dit laten staan! -->

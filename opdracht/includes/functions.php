@@ -1,5 +1,5 @@
 <?php
-
+include 'menu.php';
 function getInput()
 {
     $input = $_GET['input'] ?? 'vul een waarde in hierboven en klik op [check]';
